@@ -1,0 +1,17 @@
+body{
+	background-color: $white;
+}
+
+a {
+	font-weight: 300;
+	color: $white;
+
+	&:hover{
+		color: $ruddy-pink;
+	}
+}
+
+p{
+	font-family: $roboto;
+}
+

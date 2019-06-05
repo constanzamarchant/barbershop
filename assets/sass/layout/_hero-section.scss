@@ -1,0 +1,19 @@
+.hero__container{
+	background-image: url('../images/post-image.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	padding-top: 14rem;
+	padding-bottom: 10rem;
+	text-align: center;
+}
+
+.hero__title{
+	color: $white;
+	text-align: center;
+	font-family: $playfair;
+	font-weight: 900;
+	font-style: italic;
+	font-size: $xx-large;
+	padding-bottom:13rem;
+}

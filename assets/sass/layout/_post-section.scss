@@ -1,0 +1,46 @@
+.post__title{
+	font-family: $playfair;
+	color: $nickel;
+	font-size: $large;
+	font-weight: $regular;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.post__entry{
+	font-size:$medium;
+	line-height: 3rem;
+	font-weight: $regular;
+}
+
+.post__entry-emphasis {
+	color:$ruddy-pink;
+}
+
+.border-author {
+	display: inline-block;
+    width: 100%;
+    color: $eerie-black;
+}
+
+.bg-pagination{
+	background-color: $light-gray;
+	padding:3rem;
+}
+
+.author-title{
+	font-family: $playfair;
+	font-weight: $black-italic;
+	font-style: italic;
+}
+
+.author-bio{
+	font-size: $small;
+	line-height: 40px;
+	font-weight: $regular;
+	font-family: $roboto;
+}
+.author-name{
+	color: $ruddy-pink;
+	font-weight: ;
+}
