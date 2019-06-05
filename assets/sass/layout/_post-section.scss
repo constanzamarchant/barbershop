@@ -40,7 +40,37 @@
 	font-weight: $regular;
 	font-family: $roboto;
 }
-.author-name{
+.author-twitter{
 	color: $ruddy-pink;
-	font-weight: ;
+	font-weight: $playfair;
+	font-size: $large;
+	font-weight: $light;
+}
+
+.author-web{
+	@extend .author-twitter;
+	display: block;
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.page-item:last-child .page-link {
+  margin-left: 0;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.page-link{
+	color: $nickel;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: $white;
+  background-color: $nickel;
+  border-color: $nickel;
 }
